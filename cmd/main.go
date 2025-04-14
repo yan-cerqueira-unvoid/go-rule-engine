@@ -45,7 +45,6 @@ func (uc *UserContext) PrintReport() {
 	} else {
 		fmt.Println("RESULT: REJECTED ✗")
 		fmt.Println("Reasons:")
-
 		for _, reason := range uc.RejectionReasons {
 			fmt.Printf("  - %s\n", reason)
 		}
